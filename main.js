@@ -14,7 +14,6 @@ TypeWriter.prototype.type = function () {
   const current = this.wordIndex % this.words.length;
   // get full text of current word
   const fullTxt = this.words[current];
-  console.log(fullTxt);
 
   // check if deleting
   if (this.isDeleting) {
